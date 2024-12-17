@@ -74,7 +74,7 @@
 	"#ff4c4c",
 	"#ffcc00"
     ];
-    const letters = "I LOVE YOU";
+    const letters = "EU TE AMO";
     let letterIndex = 0;
 
     function getRandomLetter() {
@@ -85,7 +85,7 @@
 
     function createFirework(x, y) {
         const launchHeight =
-                Math.random() * (window.innerHeight / 4) + window.innerHeight / 4;
+                Math.random() * (window.innerHeight / 3) + window.innerHeight / 3;
         const projectile = document.createElement("div");
         projectile.classList.add("projectile");
         document.body.appendChild(projectile);
